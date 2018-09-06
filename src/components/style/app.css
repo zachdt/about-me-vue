@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+body{
+  font-family: 'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wrap-banner {
+  position: relative;
+  -ms-flex-align: end;
+  -webkit-box-align: end;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: right;
+  background: none;
+
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-right: 15rem;
+  width: 40rem;
+}
+
+v-btn:hover{
+  background-color: grey;
+  color: white;
+}
+v-btn:active{
+  background-color: lightgrey;
+  color: white;
+}
+
+#title{
+  font-size: 300% !important;
+}
+
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .1s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+  /* .component-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+footer{
+  margin-top: 1000rem;
+}
+#app {
+
+}
