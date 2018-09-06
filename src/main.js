@@ -9,18 +9,15 @@ import VueRouter from 'vue-router'
 import App from './App'
 
 import Hello from './components/Hello'
-import About from './components/About'
-import People from './components/People'
-import GettingInvolved from './components/GettingInvolved'
+import Stuff from './components/Stuff'
+import Contact from './components/Contact'
 
 Vue.use(VueRouter)
 Vue.use(VueParticles)
 
 const routes = [
-  {path: '/', component: Hello},
-  {path: '/about', component: About},
-  {path: '/people', component: People},
-  {path: '/get-involved', component: GettingInvolved}
+  { path: '/', component: Hello, Stuff } ,
+  { path: '/contact', component: Contact }
 ]
 
 const router = new VueRouter({
@@ -31,6 +28,6 @@ const router = new VueRouter({
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App, Hello, About, People, GettingInvolved },
+  components: { App, Hello, Stuff, Contact},
   router
 }).$mount('#app')
