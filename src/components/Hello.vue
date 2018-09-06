@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Hello'
+  name: '</Hello>' 
 }
 </script>
 <!-- styling for the component -->

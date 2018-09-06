@@ -2,8 +2,6 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 
-import VueParticles from 'vue-particles'
-
 import VueRouter from 'vue-router'
 
 import App from './App'
@@ -16,7 +14,7 @@ Vue.use(VueRouter)
 Vue.use(VueParticles)
 
 const routes = [
-  { path: '/', component: Hello, Stuff } ,
+  { path: '/', component: Hello, Stuff }, 
   { path: '/contact', component: Contact }
 ]
 

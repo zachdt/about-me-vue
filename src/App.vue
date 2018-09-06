@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <transition appear>
-      <component v-bind:is="Hello"></component>
+      <component v-bind:to="hello"></component>
     </transition>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'app' 
 }
 </script>
 
